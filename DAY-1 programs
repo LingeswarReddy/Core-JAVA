@@ -24,3 +24,30 @@ System.out.println("Average is:"+average);
 System.out.println("Total is:" +total);
 }
 }
+
+
+>>>>>>>>>>>>Airthmetic Program <<<<<<<<<<<<
+
+import java.util.*;
+class Operators{
+public static void main(String []args){
+int  PeHycash, tiffin, dinner;
+int total_expensive;
+float avgperweek;
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter the details:");
+System.out.println("Enter the pettycash:");
+PeHycash=sc.nextInt();
+System.out.println("Enter the tiffin expense:");
+tiffin=sc.nextInt();
+System.out.println("Enter the dinner expense:");
+dinner=sc.nextInt();
+total_expensive=tiffin+dinner;
+System.out.println("Total Expenses per week is:" +total_expensive);
+avgperweek=(total_expensive)/7;
+System.out.println("Avg per Week:" +avgperweek);
+int remaining_pehycash=PeHycash-(tiffin+dinner);
+System.out.println("Remaining PeHycash:"+remaining_pehycash);
+}
+}
+
