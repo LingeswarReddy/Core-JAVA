@@ -10,3 +10,17 @@ JAVA 1.0 -> JAN 1996  - JVM , core libraries, applets-"Write once , RUN anywhere
 JAVA 8 (LTS)- lambdas, Stream API , new date/time API(APllication Programming Interface)
 JAVA 11(sep 2018) - First LTS of the 6 month , standard HTTP client
 Present Latest version of JAVA is  - JAVA SE 27 
+
+Mandatory Syntax Rules
+
+• Declare the data type first. Every variable needs a type before its name (e.g., int age = 25;).
+• Allowed characters. Names can only contain letters, digits, underscores (_), and dollar signs ($).
+• Starting character. Names must start with a letter, _, or $—never a digit (1num is invalid).
+• No spaces. Variable names cannot contain blank spaces (my age is invalid).
+• No reserved keywords. You cannot use Java keywords like int, class, public, or void as variable names.
+• Case-sensitive. age and Age are treated as two completely different variables.
+
+Standard Naming Conventions (Best Practices)
+
+• Use camelCase. Start with a lowercase letter and capitalize subsequent words (e.g., studentName, totalAmount).
+• Constants in UPPER_CASE. Use all caps with underscores for final constant variables (e.g., final int MAX_SPEED = 120;).
