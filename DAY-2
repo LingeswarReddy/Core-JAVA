@@ -1,0 +1,12 @@
+>>>>>>>>>>>>>>>>>>>      Control Statements      <<<<<<<<<<<<<<<<<<<<
+
+**Three Types**
+1 conditional
+2 Looping
+3 Jumping
+->Conditional Statements:
+IF, IF ELSE, ELSE IF/LADDER, NESTED IF, SWITCH 
+->Looping:
+FOR WHILE, DO-WHILE
+->Jumping:
+CONTINUE, BREAK, RETURN
