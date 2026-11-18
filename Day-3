@@ -67,4 +67,6 @@ output:jovo
 
 7.trim()
 removes leading and trailing spaces
-String s="Hello"
+String s="  Hello  "
+System.out.println(s.trim());
+output=Hello
