@@ -1,0 +1,7 @@
+Array - collection of items/elements with same datatypes
+single array declaration- 
+int n=6;
+int arr[]=new int [n];
+
+-> Double array declaration
+int arr[][]= new int[][];
