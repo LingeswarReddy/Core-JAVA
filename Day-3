@@ -1,3 +1,4 @@
+                                               ********************* ARRAY ************************
 Array - collection of items/elements with same datatypes
 single array declaration- 
 int n=6;
@@ -9,7 +10,7 @@ int arr[][]= new int[][];
 
 Standard Array vs. ArrayList
 
-********** Declaration *********
+                                                         ********** Declaration *********
 • Primitive Variable: int num = 10;
 • Standard Array (Empty with Size): int[] arr = new int[5];
 • Standard Array (With Values): int[] arr = {10, 20, 30, 40, 50};
@@ -24,3 +25,6 @@ Adding Items	            arr[0] = 10;	                                          
 Getting Items	            arr[0]	                                                 result.get(0)
 Checking Length	          arr.length	                                             result.size()
 
+                                                          **************** STRING ***************
+String is a sequence of characters used to store text or words in java.
+-> String is an object of the `string` class in java that represents a sequence of characters.
