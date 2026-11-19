@@ -38,3 +38,21 @@ Length: 6
 Uppercase: LINGES
 Lowercase: linges
 Trim: linges
+
+***INSPECT- length(), charAt(),isEmpty(),isBlank()
+-> Etract by index:
+subString()  -> str.subString(0,4)
+indexof()  -> str.indexof()
+
+*****compare****
+equals() -> str.equals(str)
+compareTo() -> str.compareTo(str)
+
+**Find
+contains() -> str.contains("@")
+Startswith() -> str.startsWith("L")
+endsWith() -> str.endsWith("Reddy")
+
+**Transform
+
+
