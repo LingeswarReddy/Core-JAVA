@@ -64,4 +64,6 @@ endsWith() -> str.endsWith("Reddy")
 8.split() -> str.split(",")
 9. join() -> str.join("1", str1)
 10. valueOf() -> str.valueOf(3)
+11. matches() -> str.macthes("Lingeswar")
+12. formatted()
 
