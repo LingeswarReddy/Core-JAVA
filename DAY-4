@@ -54,5 +54,9 @@ Startswith() -> str.startsWith("L")
 endsWith() -> str.endsWith("Reddy")
 
 **Transform
+1. trim() -> str.trim()
+2. strip() -> str.trip()
+3. concate() ->  str.concate("HOW")
+4.repeat() -> str.repeat(3)
 
 
