@@ -94,3 +94,36 @@ endsWith() -> str.endsWith("Reddy")
 ** FUNCTIONS **
 -> with return type 
 -> without return type 
+
+** METHODS ** 
+1.Stataic Method-(belongs to the class)
+2. Non- Static method - (belongs to the object)
+
+Example :
+
+class Calculator {
+    // 1. Static Method (belongs to the class)
+    static void sayHello() {
+        System.out.println("Hello from Static Method!");
+    }
+
+    // 2. Non-Static Method (belongs to an object)
+    void add(int a, int b) {
+        System.out.println("Sum: " + (a + b));
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // Calling static method directly using the class name (no object needed)
+        Calculator.sayHello();
+
+        // Calling non-static method requires creating an object first
+        Calculator calc = new Calculator();
+        calc.add(10, 20);
+    }
+}
+
+-> output:
+Hello from Static Method!
+Sum: 30
