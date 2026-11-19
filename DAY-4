@@ -127,3 +127,12 @@ public class Main {
 -> output:
 Hello from Static Method!
 Sum: 30
+ 
+2nd example: Non- static 
+class Venu{
+int vamsi(int a, int b){
+return a+b;
+}
+psvm{
+Scanner sc= new Scanner();
+obj.vamsi(10, 20);}
