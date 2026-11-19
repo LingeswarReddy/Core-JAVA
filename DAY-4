@@ -58,5 +58,7 @@ endsWith() -> str.endsWith("Reddy")
 2. strip() -> str.trip()
 3. concate() ->  str.concate("HOW")
 4.repeat() -> str.repeat(3)
-
-
+5. replace() -> str.replace('a','o')
+6. replaceall() -> str.replaceall()
+7. replaceFirst() -> str.replaceFirst("h")
+8.split() -> str.split(",")
