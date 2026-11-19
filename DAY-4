@@ -80,3 +80,17 @@ endsWith() -> str.endsWith("Reddy")
 
 -----Concontrate Class---
 -> It is a regular class that can be used to create the objects 
+** Types of Constructors**
+1.Default/Non-arguments
+2.Parameter/arguments
+3.Copy constructor
+
+** Types of Modifiers**
+1.Access Modifiers 
+2. Non-Access Modifiers 
+-> Access Modifiers - public, private , default, protected
+-> NON- Access Modifiers - static , final, abstract, synchronized, volatile, transient
+
+** FUNCTIONS **
+-> with return type 
+-> without return type 
