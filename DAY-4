@@ -67,3 +67,16 @@ endsWith() -> str.endsWith("Reddy")
 11. matches() -> str.macthes("Lingeswar")
 12. formatted()
 
+**** DIFFERENT TYPES  CLASSES *****
+1.Concrete class
+2.Abstract Class
+3.Final Class 
+4.Static Nested Class
+5.Inner Class
+6.Local Class
+7.Anonmyous Class
+8.Enum Class
+9. Interface Class
+
+-----Concontrate Class---
+-> It is a regular class that can be used to create the objects 
