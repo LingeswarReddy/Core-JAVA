@@ -1,0 +1,234 @@
+ ** -> OOP - Object Oriented Programming Language
+it has Four pillars 
+1.Encapsulation-wrapping data and showing only neccessay details and hiding the implementation details
+2.Polymorphism- Many forms
+3.Data Abstraction
+4.Inheritance - types 5 - single, multiple, multilevel, heirarchy,hybrid
+
+Overloading & Overriding 
+
+** overloading example:
+class Parent 
+{
+	public void method1(int a, int b)
+	{
+		System.out.println(a+b);
+	}
+	public void method1(int a, int b, int c)
+	{
+		System.out.println(a+b+c);	
+	}
+}
+
+class Main 
+{
+	public static void main(String[] args) 
+	{
+		Parent p=new Parent();
+		p.method1(5,6);
+   p.method1(5,6,7);
+	}
+}
+
+** Overriding 
+class Parent 
+{
+	public void method1()
+	{
+		System.out.println("Parent Method 1");
+	}
+	public void method2()
+	{
+		System.out.println("Parent Method 2");	
+	}
+}
+class Child extends Parent					  
+{
+	public void method1()
+	{
+		System.out.println("Child Method 1");	  
+	}
+}
+class Main 
+{
+	public static void main(String[] args) 
+	{
+		Parent p=new Parent();
+		p.method1();//parent method 1
+		Child c=new Child();
+		c.method1();//child method 1
+		Parent p1=new Child();
+		p1.method1();//child method 1
+	}
+}
+
+
+INHERITANCES AND EXAMPLES :
+
+---- Single 
+class Animal {
+    void eat() {
+        System.out.println("Eating");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Barking");
+    }
+}
+
+class singleinheritance{
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.eat();
+        d.bark();
+    }
+}
+o/p:
+Eating 
+Barking
+
+ ----multilevel
+
+class A {
+    void showA() {
+        System.out.println("Class A");
+    }
+}
+
+class B extends A {
+    void showB() {
+        System.out.println("Class B");
+    }
+}
+
+class C extends B {
+    void showC() {
+        System.out.println("Class C");
+    }
+}
+
+class multilevel {
+    public static void main(String[] args) {
+        C obj = new C();
+        obj.showA();
+        obj.showB();
+        obj.showC();
+    }
+}
+o/p:
+Class A
+Class B
+Class C
+
+----multiple 
+
+interface A {
+    void showA();
+}
+
+interface B {
+    void showB();
+}
+
+class C implements A, B {
+    public void showA() {
+        System.out.println("Interface A");
+    }
+
+    public void showB() {
+        System.out.println("Interface B");
+    }
+}
+
+class multipleinheritance{
+    public static void main(String[] args) {
+        C obj = new C();
+        obj.showA();
+        obj.showB();
+    }
+}
+
+o/p:
+Interface A
+Interface B
+
+
+--heirarchical
+
+class Animal {
+    void eat() {
+        System.out.println("Eating");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Barking");
+    }
+}
+
+class Cat extends Animal {
+    void meow() {
+        System.out.println("Meowing");
+    }
+}
+
+class heirarchicalinheritance {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.eat();
+        d.bark();
+
+        Cat c = new Cat();
+        c.eat();
+        c.meow();
+    }
+}
+
+o/p:
+Eating
+Barking
+Eating
+Meowing
+
+
+
+----hybrid
+
+interface A {
+    void showA();
+}
+
+class B {
+    void showB() {
+        System.out.println("Class B");
+    }
+}
+
+class C extends B implements A {
+    public void showA() {
+        System.out.println("Interface A");
+    }
+}
+
+class D extends C {
+    void showD() {
+        System.out.println("Class D");
+    }
+}
+
+class hybridinheritance {
+    public static void main(String[] args) {
+        D obj = new D();
+        obj.showA();
+        obj.showB();
+        obj.showD();
+    }
+}
+o/p:
+Interface A
+Class B
+Class D
+
